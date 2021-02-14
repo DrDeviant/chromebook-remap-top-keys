@@ -6,6 +6,7 @@ Ensure curl is installed, and run this command to download and run the script:
 curl -s https://raw.githubusercontent.com/TheSonicMaster/chromebook-remap-top-keys/main/remap.sh | sudo bash
 ```
 Make sure to reboot after running the script for the changes to take effect!
+
 **Note:** Updates might reset the keymaps, if this happens, just run the script again.
 # List of remappings, from left to right
 - Back
