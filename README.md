@@ -1,5 +1,5 @@
 # chromebook-remap-top-keys
-Remaps the top row media keys on a Chromebook to be consistent with Chrome OS.
+Remaps the top row media keys on a Chromebook running Linux, to be consistent with Chrome OS.
 # Usage
 Ensure curl is installed, and run this command to download and run the script:
 ```
