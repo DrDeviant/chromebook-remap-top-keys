@@ -19,7 +19,7 @@ Make sure to reboot after running the script for the changes to take effect!
 - Volume Mute
 - Volume Down
 - Volume Up
-# Restoring original keymaps.
+# Restoring original keymaps
 When the script was run, a backup of the stock keymaps were taken. It can be restored with the following command:
 ```
 sudo mv /usr/share/X11/xkb/symbols/pc.bak /usr/share/X11/xkb/symbols/pc
