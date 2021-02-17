@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Remaps top row media keys on a Chromebook to match Chrome OS.
-# Copyright (C) The Sonic Master 2021.
+# Copyright (C) 2021 The Sonic Master.
 #
 # Exit on error.
 set -e
@@ -10,9 +10,9 @@ if [ $EUID -ne 0 ]; then
   echo "Error: Must be run as root. Exiting..." >&2
   exit 1
 fi
-# Print bold/green text.
+# Print green text.
 printbg() {
-  echo -e "\n\e[1m\e[32m$1\e[0m\n"
+  echo -e "\e[1m\e[32m$1\e[0m"
 }
 # Ensure we are running on a Chromebook.
 if [ "$(dmidecode -s system-manufacturer)" != "GOOGLE" ]; then
